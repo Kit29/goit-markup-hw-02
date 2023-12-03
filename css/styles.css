@@ -66,7 +66,6 @@ letter-spacing: 0.32px;
 .effe {
     color: var(--WHITE, #FFF);
 text-align: center;
-line-height: 60px; /* 107.143% */
 line-height: 1.07;
 
 /* Header 1 */
@@ -74,7 +73,6 @@ font-family: "Roboto", sans-serif;
 font-size: 56px;
 font-style: normal;
 font-weight: 700;
-line-height: 60px; /* 107.143% */
 letter-spacing: 1.12px;
 }
 .order {
