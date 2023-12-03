@@ -12,6 +12,7 @@ font-weight: 700;
 line-height: 21px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
+line-height: 1.17;
 }
 .logot {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -66,9 +67,7 @@ line-height: 60px; /* 107.143% */
 letter-spacing: 1.12px;
 }
 .order {
-border-radius: 4px;
 background-color: #4D5AE5;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 font-family: "Roboto", sans-serif;
 color: var(--WHITE, #FFF);
 font-size: 16px;
@@ -115,7 +114,7 @@ line-height: 1.07;
     text-align: center;
     
     /* Header 2 */
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -124,9 +123,7 @@ line-height: 1.07;
     text-transform: capitalize;
 }
 .liszka {
-    border-radius: 0px 0px 4px 4px;
 background: var(--WHITE, #FFF);
-box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .mark {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -214,7 +211,7 @@ letter-spacing: 0.32px;
 text-align: center;
 
 /* Header 2 */
-font-family: Roboto;
+font-family: "Roboto", sans-serif;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
