@@ -34,7 +34,16 @@ font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
 }
-.ress {
+.pidlog :hover {
+    color: #404bbf;
+}
+.pidlog :focus{
+    color: #404bbf;
+}
+.djif {
+    font-style: normal;
+}
+.info {
     color: var(--SLATE, #434455);
 
 /* Body */
@@ -45,11 +54,11 @@ font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
 }
-.ress :hover {
-    color:#404bbf;
+.info :hover {
+    color: #404bbf;
 }
-.ress :focus {
-    color:#404bbf;
+.info :focus {
+    color: #404bbf;
 }
 .drusect {
     background-color:#2e2f42;
@@ -57,6 +66,7 @@ letter-spacing: 0.32px;
 .effe {
     color: var(--WHITE, #FFF);
 text-align: center;
+line-height: 1.07;
 
 /* Header 1 */
 font-family: "Roboto", sans-serif;
@@ -93,7 +103,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px; /* 120% */
 letter-spacing: 0.4px;
-line-height: 1.07;
+line-height: 1.2;
 }
 .identify {
     color: var(--SLATE, #434455);
@@ -121,6 +131,7 @@ line-height: 1.07;
     line-height: 40px; /* 111.111% */
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    line-height: 1.11;
 }
 .liszka {
 background: var(--WHITE, #FFF);
@@ -218,4 +229,5 @@ font-weight: 700;
 line-height: 40px; /* 111.111% */
 letter-spacing: 0.72px;
 text-transform: capitalize;
+line-height: 1.11;
 }
