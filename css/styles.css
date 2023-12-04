@@ -8,20 +8,23 @@ body {
 font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-style: normal;
-font-weight: 700;
 line-height: 21px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
 line-height: 1.17;
+text-decoration: none;
 }
 .logot {
     color: var(--NAVY-BLUE, #2E2F42);
 font-family: "Raleway", sans-serif;
 font-style: normal;
-font-weight: 700;
 line-height: 21px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
+text-decoration: none;
+}
+.orto {
+    list-style-type: none;
 }
 .pidlog {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -30,18 +33,15 @@ text-transform: uppercase;
 font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
-font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
+text-decoration: none;
 }
 .pidlog:hover {
     color: #404bbf;
 }
 .pidlog:focus{
     color: #404bbf;
-}
-.djif {
-    font-style: normal;
 }
 .info {
     color: var(--SLATE, #434455);
@@ -50,9 +50,9 @@ letter-spacing: 0.32px;
 font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-style: normal;
-font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
+text-decoration: none;
 }
 .info:hover {
     color: #404bbf;
@@ -71,8 +71,6 @@ line-height: 1.07;
 /* Header 1 */
 font-family: "Roboto", sans-serif;
 font-size: 56px;
-font-style: normal;
-font-weight: 700;
 letter-spacing: 1.12px;
 }
 .service {
@@ -80,8 +78,6 @@ background-color: #4D5AE5;
 font-family: "Roboto", sans-serif;
 color: var(--WHITE, #FFF);
 font-size: 16px;
-font-style: normal;
-font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.64px;
 cursor: pointer;
@@ -98,8 +94,6 @@ cursor: pointer;
 /* Header 3 */
 font-family: "Roboto", sans-serif;
 font-size: 20px;
-font-style: normal;
-font-weight: 500;
 line-height: 24px; /* 120% */
 letter-spacing: 0.4px;
 line-height: 1.2;
@@ -110,8 +104,6 @@ line-height: 1.2;
     /* Body */
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
 }
@@ -125,8 +117,6 @@ line-height: 1.2;
     /* Header 2 */
     font-family: "Roboto", sans-serif;
     font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 40px; /* 111.111% */
     letter-spacing: 0.72px;
     text-transform: capitalize;
@@ -142,8 +132,6 @@ text-align: center;
 /* Header 3 */
 font-family: "Roboto", sans-serif;
 font-size: 20px;
-font-style: normal;
-font-weight: 500;
 line-height: 24px; /* 120% */
 letter-spacing: 0.4px;
 }
@@ -154,8 +142,6 @@ text-align: center;
 /* Body */
 font-family: "Roboto", sans-serif;
 font-size: 16px;
-font-style: normal;
-font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
 }
@@ -167,21 +153,21 @@ letter-spacing: 0.32px;
 font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-style: normal;
-font-weight: 700;
 line-height: 21px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
 line-height: 1.17;
+text-decoration: none;
 }
 .study {
     color: var(--CLOUD, #F4F4FD);
 font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-style: normal;
-font-weight: 700;
 line-height: 21px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
+text-decoration: none;
 }
 .increase {
     color: var(--CLOUD, #F4F4FD);
@@ -189,8 +175,6 @@ text-transform: uppercase;
 /* Body */
 font-family: "Roboto", sans-serif;
 font-size: 16px;
-font-style: normal;
-font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
 }
@@ -201,8 +185,6 @@ text-align: center;
 /* Header 2 */
 font-family: "Roboto", sans-serif;
 font-size: 36px;
-font-style: normal;
-font-weight: 700;
 line-height: 40px; /* 111.111% */
 letter-spacing: 0.72px;
 text-transform: capitalize;
@@ -216,10 +198,8 @@ background: var(--WHITE, #FFF);
     color: var(--NAVY-BLUE, #2E2F42);
 
 /* Header 3 */
-font-family: Roboto;
+font-family: "Roboto", sans-serif;
 font-size: 20px;
-font-style: normal;
-font-weight: 500;
 line-height: 24px; /* 120% */
 letter-spacing: 0.4px;
 }
@@ -229,8 +209,6 @@ letter-spacing: 0.4px;
 /* Body */
 font-family: Roboto;
 font-size: 16px;
-font-style: normal;
-font-weight: 400;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
 }
